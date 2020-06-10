@@ -25,13 +25,13 @@ LCD :
 4. SCL LCD -> SCL D15 Arduino Wemos / A5 input analog Arduino
 
 This is prototipe Arduino Wemos :
-![rancangan_arduino_wemos.jpg]({{site.baseurl}}/rancangan_arduino_wemos.jpg)
+![rancangan_arduino_wemos.jpg]({{https://raw.githubusercontent.com/akhmadsyarif04/IoT_Automatic_water_tap_fuzzy_mamdani/master/rancangan_arduino_wemos.jpg}}/rancangan_arduino_wemos.jpg)
 
 This is monitoring on lcd :
-![monitoring_on_lcd.jpg]({{site.baseurl}}/monitoring_on_lcd.jpg)
+![monitoring_on_lcd.jpg]({{https://raw.githubusercontent.com/akhmadsyarif04/IoT_Automatic_water_tap_fuzzy_mamdani/master/monitoring_on_lcd.jpg}}/monitoring_on_lcd.jpg)
 
 This is microcontroller :
-![alat_microcontroller.jpg]({{site.baseurl}}/alat_microcontroller.jpg)
+![alat_microcontroller.jpg]({{https://raw.githubusercontent.com/akhmadsyarif04/IoT_Automatic_water_tap_fuzzy_mamdani/master/alat_microcontroller.jpg}}/alat_microcontroller.jpg)
 
 This is monitoring on website :
-![monitoring_on_web.png]({{site.baseurl}}/monitoring_on_web.png)
+![monitoring_on_web.png]({{https://raw.githubusercontent.com/akhmadsyarif04/IoT_Automatic_water_tap_fuzzy_mamdani/master/monitoring_on_web.png}}/monitoring_on_web.png)
