@@ -77,21 +77,18 @@ void setup() {
 }
  
 void loop() {
-//  sensorKelembaban = dht.readHumidity();
-//  sensorSuhu = dht.readTemperature();
+  sensorKelembaban = dht.readHumidity();
+  sensorSuhu = dht.readTemperature();
 
   //sensor ldr
   int nilai = analogRead(A0);   // Baca nilai sensor
   float Vout = nilai*0.0048828125;
-//  sensorCahaya = 500/(10*((5-Vout)/Vout)); // ini yang benar conversi lux
+  sensorCahaya = 500/(10*((5-Vout)/Vout)); // ini yang benar conversi lux
 
-//  float lux2=(2500/Vout-500)/10;
-//  Serial.println(sensorCahaya);
-//  Serial.println(lux2);
 
- sensorSuhu = 23.00;
- sensorKelembaban = 83.00 ;
- sensorCahaya = 0.35;
+// sensorSuhu = 23.00;
+// sensorKelembaban = 83.00 ;
+// sensorCahaya = 0.35;
 
 //  fuzzifikasi
    FuzzySuhu(sensorSuhu);
